@@ -1,0 +1,50 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.game {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+} 
+
+table {
+    border-color: yellow;
+    margin: auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    transform: scale(1.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Hides the board until the game starts */
+#board {
+    display: none;
+}
+

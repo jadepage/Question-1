@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fun Tic Tac Toe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="question_1.css">
+    </head>
+    <body>
+        <div class="container"></div>
+            <div class="game">
+                <h1>Welcome To Jade's Tic-Tac-Toe</h1>
+                <h3>Please click start to begin the game.</h3>
+                <button onclick="game.startGame()">Start Game</button>
+                <h3 id="message"></h3>
+                <table id="board" border="2">
+                    <tr>
+                        <td id="block1" class="square" onclick="game.nextMove(this)"></td>
+                        <td id="block2" class="square" onclick="game.nextMove(this)"></td>
+                        <td id="block3" class="square" onclick="game.nextMove(this)"></td>
+                    </tr>
+                    <tr>
+                        <td id="block4" class="square" onclick="game.nextMove(this)"></td>
+                        <td id="block5" class="square" onclick="game.nextMove(this)"></td>
+                        <td id="block6" class="square" onclick="game.nextMove(this)"></td>
+                    </tr>
+                    <tr>
+                        <td id="block7" class="square" onclick="game.nextMove(this)"></td>
+                        <td id="block8" class="square" onclick="game.nextMove(this)"></td>
+                        <td id="block9" class="square" onclick="game.nextMove(this)"></td>
+                    </tr>
+                </table>
+            
+            </div>
+        </div>
+        <script src="question_1.js"></script>
+    </body>
+</html>
